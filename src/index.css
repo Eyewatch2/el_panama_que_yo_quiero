@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.surveykiwi {
+    min-height: 100svh;
+}
+
+body {
+    height: 100svh;
+    overflow-y: hidden;
+}
+
+* {
+    scroll-behavior: smooth;
+}
